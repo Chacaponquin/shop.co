@@ -130,10 +130,10 @@ export default function Footer() {
             Shop.co © 2000-2023, All Rights Reserved
           </p>
           <div className="flex space-x-4">
-            <img src="/placeholder.svg" alt="Visa" className="h-6" />
-            <img src="/placeholder.svg" alt="Mastercard" className="h-6" />
-            <img src="/placeholder.svg" alt="PayPal" className="h-6" />
-            <img src="/placeholder.svg" alt="Apple Pay" className="h-6" />
+            <img src="/visa.svg" alt="Visa" className="h-6" />
+            <img src="/mastercard.svg" alt="Mastercard" className="h-6" />
+            <img src="/paypal.svg" alt="PayPal" className="h-6" />
+            <img src="/apple.svg" alt="Apple Pay" className="h-6" />
           </div>
         </div>
       </div>
