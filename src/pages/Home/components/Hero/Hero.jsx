@@ -4,21 +4,24 @@ export default function Hero() {
   return (
     <div className="min-h-screen bg-white">
       <header className="flex items-center justify-between px-6 py-4 border-b">
-        <h1 className="text-2xl font-bold">SHOP.CO</h1>
-        <nav className="hidden md:flex space-x-6">
-          <a href="#" className="text-sm font-medium">
-            Shop
-          </a>
-          <a href="#" className="text-sm font-medium">
-            On Sale
-          </a>
-          <a href="#" className="text-sm font-medium">
-            New Arrivals
-          </a>
-          <a href="#" className="text-sm font-medium">
-            Brands
-          </a>
-        </nav>
+        <div className="flex items-center gap-x-8">
+          <h1 className="text-2xl font-bold">SHOP.CO</h1>
+
+          <nav className="hidden md:flex space-x-6 font-semibold">
+            <a href="#" className="text-sm ">
+              Shop
+            </a>
+            <a href="#" className="text-sm ">
+              On Sale
+            </a>
+            <a href="#" className="text-sm ">
+              New Arrivals
+            </a>
+            <a href="#" className="text-sm ">
+              Brands
+            </a>
+          </nav>
+        </div>
 
         <div className="flex items-center space-x-4">
           <div className="hidden md:flex items-center bg-gray-100 rounded-full px-3 py-2">
